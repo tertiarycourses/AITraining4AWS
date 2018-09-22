@@ -1,9 +1,3 @@
-# Module 2: Neural Network
-# Load Model and Predict
-
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import pandas as pd
 from keras.models import load_model
 
